@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'Merienda';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Merienda'), local('Merienda-Regular_0_wt'), url("https://fonts.gstatic.com/s/merienda/v8/gNMHW3x8Qoy5_mf8uWMFMIo.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+html{
+    font-size: 16px;
+    font-family: Calibri;
+    margin: 10px;
+    background-color: rgba(122, 122, 122, 0.95);
+    color: white;
+}
+header h1{
+    font-size: 3rem;
+    margin: 5%;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+nav li{
+    display: inline-flex;
+    font-size: 1rem;
+    padding: 10px;
+    font-family: "merienda";
+}
+
+header nav{
+    margin: 10px 0px;
+    text-align: center;
+}
+
+a{
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Merienda;
+}
+
+div{
+    box-sizing: border-box;
+    display: block;
+}
+.colours{
+    border: 5px solid black;
+    width: 90%;
+    margin: 5%;
+    padding: 5px 0px;
+    justify-content: space-around;
+    background-color: white;
+    
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+.h2title{
+    text-decoration: underline;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+#colourtitle{
+    color: black;
+}
+
+.colour{
+    width: 45%;
+    height: 200px;
+    color: white;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 2.5%;
+    margin: 1% 2.2%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10%
+
+}
+#blue{
+    background-color: #0000FF;
+}
+#red{
+    background-color: #FF0000;
+}
+#green{
+    background-color: #00FF7F;
+    color: black;
+}
+#lightgrey{
+    background-color: rgba(122, 122, 122, 0.95);
+}
+
+p{
+    font-family: Calibri;
+}
+.fonts{
+    border: 5px dashed white;
+    margin: 5%;
+}
+
+.font{
+    display: flex;
+    justify-content: space-around;
+}
+#merienda{
+    font-family: "Merienda";
+}
+#calibri{
+    font-family: "Calibri";
+}
+
+.styles{
+    border: 5px dotted white;
+    margin: 5%;
+    font-family: "Merienda";
+}
+
+#h1, #h2, #p{
+    text-align: left;
+    margin-left: 5px;
+}
+
+#p{
+    font-family: calibri;
+    font-size: 1.25rem;
+}
+
+#normal{
+    font-family:"calibri";
+}
